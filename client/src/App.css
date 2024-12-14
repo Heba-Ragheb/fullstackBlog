@@ -1,0 +1,287 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.main_box--main--login button{
+  margin: 10px ;
+  box-shadow: 0px 0px 10px rgba(0,0,0,.25);
+  padding: 7.5px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.main_box--main--login {
+  max-width: 300px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-control:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn.btn-success {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #5c87b8;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn.btn-success:hover {
+  background-color: #4c4eae;
+}
+.post {
+  display: flex;
+ 
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ width: 80%; /* adjust the width to your liking */
+  margin: 20px;
+ 
+  
+}
+
+.post .image {
+  width: 50%;
+  height: 200px; /* adjust the height to your liking */
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+}
+
+.post .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.postDetail {
+  padding: 20px;
+}
+
+.postDetail h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.postDetail.info {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.postDetail.info a.auther {
+  font-weight: bold;
+  color: #337ab7;
+  text-decoration: none;
+}
+
+.postDetail.info time {
+  font-size: 12px;
+  color: #999;
+}
+
+.postDetail.summary {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* hover effect */
+.post:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.post:hover.image img {
+  transform: scale(1.05);
+}
+.auther {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.summary {
+  font-size: 14px;
+ 
+}.navbar {
+ 
+   margin: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.button {
+  display: flex;
+  gap: 20px;
+}
+
+.button a {
+ 
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.button a:hover {
+  color: #ccccccc0;
+}
+
+.button a.active {
+  color: #66d9ef;
+} input{
+  width: 90%;
+}form {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"] {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input[type="file"] {
+  margin-bottom: 20px;
+}
+
+.ql-editor {
+  height: 300px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #3a3f64;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+form button:hover {
+  background-color: #3e8e41;
+}/* postPage.css */
+
+.postPage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+} .update{
+  text-decoration: none;
+  background-color: #212327;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 0;
+  border-radius: 5px;
+}
+/* Responsive styles */
+
+@media (max-width: 768px) {
+  .postPage {
+    margin: 20px auto;
+    padding: 15px;
+  }
+  .image {
+    height: 150px;
+  }
+  .postPage h1 {
+    font-size: 20px;
+  }
+  .postPage div[dangerouslySetInnerHTML] {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .postPage {
+    margin: 10px auto;
+    padding: 10px;
+  }
+  .image {
+    height: 100px;
+  }
+  .postPage h1 {
+    font-size: 18px;
+  }
+  .postPage div[dangerouslySetInnerHTML] {
+    font-size: 12px;
+  }
+}
